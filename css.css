@@ -7,20 +7,15 @@ body, html{
 
 header{
   background-color: purple;
-  margin-top: 50px;
+  
   height: 60px;
-
+  grid-area: header;
 }
 
-section{
-
-  display: flex;
-  background-color: green;
-}
 
 nav{
   
-  width: 25%;
+  grid-area: menu;
   background-color: coral;
 }
 
@@ -28,20 +23,27 @@ nav{
 footer{
 background-color: aqua;
 height: 80px;
-clear: both;
+grid-area: footer;
 }
 
 
 article{
   height: 240px;
-  width: 75%;
-background-color: beige;
+  
+  background-color: beige;
+  grid-area: content;
 }
 
 #container {
-  margin: 0 auto;
+  
+  display: grid;
+  margin:50px auto 0 auto;
   width: 1200px ;
   background-color: orange;
-    
-    
+  grid-template-areas: 
+  'header header header header'
+  'menu content content content'
+  'footer footer footer footer'
+  ;
+     
   }
