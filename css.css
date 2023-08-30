@@ -13,12 +13,13 @@ header{
 }
 
 section{
-  overflow: hidden;
+
+  display: flex;
   background-color: green;
 }
 
 nav{
-  float: left;
+  
   width: 25%;
   background-color: coral;
 }
@@ -33,7 +34,6 @@ clear: both;
 
 article{
   height: 240px;
-  float: left;
   width: 75%;
 background-color: beige;
 }
