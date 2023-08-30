@@ -1,0 +1,47 @@
+body, html{
+  padding: 0;
+  margin:0;
+
+
+}
+
+header{
+  background-color: purple;
+  margin-top: 50px;
+  height: 60px;
+
+}
+
+section{
+  overflow: hidden;
+  background-color: green;
+}
+
+nav{
+  float: left;
+  width: 25%;
+  background-color: coral;
+}
+
+
+footer{
+background-color: aqua;
+height: 80px;
+clear: both;
+}
+
+
+article{
+  height: 240px;
+  float: left;
+  width: 75%;
+background-color: beige;
+}
+
+#container {
+  margin: 0 auto;
+  width: 1200px ;
+  background-color: orange;
+    
+    
+  }
